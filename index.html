@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <!-- Start NAvbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact US</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 collapse" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-secondary me-2" type="submit">Sign Up</button>
+                        <input class="form-control me-2 collapse" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success me-2" type="submit">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  End Navbar -->
+
+    <!-- Start Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/pexels-emrecanalgul-26775381.jpg" style="height: 500px;" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/pexels-marlinclark-4400679.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/pexels-og-mpango-1582361-10147934.jpg" style="height: 500px;" class="d-block w-100"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- start Our Services -->
+    <div class="container mt-5" id="services">
+        <div class="my-5">
+            <h4 class="text-dark fw-bold text-center text-uppercase mb-3 pb-3"> Our Services</h4>
+            <div class="d-flex  justify-content-between align-items-center">
+                <div class="d-flex flex-column flex-grow-1 w-25 p-4 align-content-center">
+                    <img style="height: 250px ; width: 250px;" class="rounded-circle mb-4"
+                        src="assets/free-photo-of-man-with-backpack-walking-down-stairs-by-wall.jpeg" alt="">
+                    <p class="text-center text-secondary w-75">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aliquam ipsum obcaecati culpa odit nesciunt error molestiae dolore ab maxime delectus inventore,
+                        fugit harum.
+                    </p>
+                </div>
+                <div class="d-flex flex-column flex-grow-1 w-25 p-4 align-content-center">
+                    <img style="height: 250px ; width: 250px;" class="rounded-circle mb-3"
+                        src="assets/pexels-photo-7205754.jpeg" alt="">
+                    <p class="text-center text-secondary w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Eveniet unde reprehenderit mollitia porro odit. Autem facere dicta beatae, nobis, fuga illum
+                        perspiciatis
+                    </p>
+                </div>
+                <div class="d-flex flex-column flex-grow-1 w-25 p-4 align-content-center">
+                    <img style="height: 250px ; width: 250px;" class="rounded-circle mb-3"
+                        src="assets/pexels-photo-18749534.webp" alt="">
+                    <p class="text-center text-secondary w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Vero ea, eligendi repudiandae quae mollitia sequi deleniti, corrupti, voluptas tenetur atque
+                        aliquid assumenda.
+                    </p>
+                </div>
+                <div class="d-flex flex-column flex-grow-1 w-25 p-4 align-content-center">
+                    <img style="height: 250px ; width: 250px;" class="rounded-circle mb-3"
+                        src="assets/free-photo-of-relax.jpeg" alt="">
+                    <p class="text-center text-secondary w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Vero ea, eligendi repudiandae quae mollitia sequi deleniti, corrupti, voluptas tenetur atque
+                        aliquid assumenda.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Services -->
+
+    <!-- Start About Us -->
+
+    <div class="row" id="About">
+        <div class="col-md-6 col-12 p-5 d-flex flex-column justify-content-center">
+            <h4 class="text-dark fw-bold text-center text-uppercase mb-3 pb-3">About Us</h4>
+            <p class="text-center text-secondary w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem vel cumque cum quibusdam tempora possimus laboriosam necessitatibus alias consectetur
+                tempore! Odio vel, rerum suscipit aspernatur impedit tempore modi esse autem?</p>
+            <p class="text-center text-secondary w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Exercitationem vel cumque cum quibusdam tempora possimus laboriosam necessitatibus alias consectetur
+                tempore! Odio vel, rerum suscipit aspernatur impedit tempore modi esse autem?</p>
+        </div>
+        <div class="col-md-6 col-12 p-5">
+            <img class="rounded" style="width:100%; height: 500px;"
+                src="assets/free-photo-of-a-black-and-white-photo-of-a-city-with-domes.jpeg" alt="">
+        </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- start Contact -->
+    <form class="row justify-content-center my-5" id="Contact">
+        <div class="col-md-12">
+            <h4 class="text-dark fw-bold text-center text-uppercase mb-3">
+                Contact Us
+            </h4>
+        </div>
+        <div class="col-md-8 mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" />
+        </div>
+
+        <div class="col-md-8 mb-3">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-8 mb-3">
+            <label for="msg" class="form-label">Your Message</label>
+            <textarea class="form-control" id="msg"></textarea>
+        </div>
+        <div class="col-8 mt-3">
+            <button type="submit" class="btn btn-dark fs-5 px-5">Send</button>
+        </div>
+    </form>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted" data-bs-theme="dark">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
